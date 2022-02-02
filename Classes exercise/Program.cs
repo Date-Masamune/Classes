@@ -2,16 +2,24 @@
 
 namespace Classes_exercise
 {
-   class Invoice
+   class program
    {
-      private string part_number; // instance variable for part_number
-      private string description; //instance variable for description
-      private string quantity; // instance variable for quantity
-      private string unit_price; // instance variable for unit_price
-
+    
       static void Main(string[] args)
       {
-         Console.WriteLine("Hello World!");
+         InVoice myInVoice = new InVoice();
+
+         Console.Write("Please enter the part number"); //prompt
+         myInVoice.Part_number = Console.ReadLine(); 
+         //display part_number 
+         Console.WriteLine($"Part number is: {myInVoice.Part_number}");
+
+
+         Console.Write("Please enter the description"); //prompt
+         myInVoice.Part_description = Console.ReadLine();
+         //display description 
+         Console.WriteLine($"Description is: {myInVoice.Part_description}");
+
       }
    }
 }
