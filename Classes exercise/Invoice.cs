@@ -8,41 +8,68 @@ namespace Classes_exercise
 {
    class InVoice
    {
-      private string part_number; // instance variable for part_number
-      private string part_description; //instance variable for description
-      private int quantity; // instance variable for quantity
+
+
+
+      private string partNum; // instance variable for part_number
+      private string partDes; //instance variable for description
+      private int Qty; // instance variable for quantity
       private decimal unit_price; // instance variable for unit_price
 
-      //property to get and set the part_number instance variable
-      public string Part_number
+
+
+
+      public string PartNum { get; set; }  // auto-implemented property
+      public string PartDes { get; set; } // auto- implemeted property
+
+      public int qTy
       {
-         get // returns the corrisponding instance variable's value
+         get //return the quantity of item
          {
-            return part_number; //returns the value of part_number to the client code
+            return qTy;
+
          }
-         set // assignes a new value to the coresponding instance variable
-         { 
-         part_number = value; //value is implicitly delcared and intialized
+
+
+         set
+         {
+            //validate that the balance is greater the 0.0 if it's not, 
+            // instance variable keeps it's prior value. 
+            if (value > 0)
+            {
+               qTy = value;
+            }
+
          }
       }
 
-      public string Part_description
+         public decimal UnitPrc
       {
-         get // returns the corrisponding instance variable's value
+         get
          {
-            return Part_description; //returns the value of part_description to the client code
+            return UnitPrc;
          }
-         set // assignes a new value to the coresponding instance variable
+
+         set
          {
-            part_description = value; //value is implicitly delcared and intialized
+            if (UnitPrc > 0.0m)
+            {
+               UnitPrc = value;
+            }
+
+
          }
+
+
+
+
 
 
       }
-
-
-
 
 
    }
+
+
 }
+   

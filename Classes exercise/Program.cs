@@ -7,18 +7,10 @@ namespace Classes_exercise
     
       static void Main(string[] args)
       {
-         InVoice myInVoice = new InVoice();
+         InVoice Invoice1 = new InVoice("0511589, nails, 5, 4.15");
 
-         Console.Write("Please enter the part number"); //prompt
-         myInVoice.Part_number = Console.ReadLine(); 
-         //display part_number 
-         Console.WriteLine($"Part number is: {myInVoice.Part_number}");
-
-
-         Console.Write("Please enter the description"); //prompt
-         myInVoice.Part_description = Console.ReadLine();
-         //display description 
-         Console.WriteLine($"Description is: {myInVoice.Part_description}");
+         Console.WriteLine($"The Part Number is {InVoice.partNum}");
+         
 
       }
    }
