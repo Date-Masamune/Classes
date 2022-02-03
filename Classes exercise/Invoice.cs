@@ -14,8 +14,8 @@ namespace Classes_exercise
       private string partNum; // instance variable for part_number
       private string partDes; //instance variable for description
       private int Qty; // instance variable for quantity
-      private decimal unit_price; // instance variable for unit_price
-
+      private decimal Unitprc; // instance variable for unit_price
+      private 
 
 
 
