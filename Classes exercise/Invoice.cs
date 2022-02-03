@@ -9,24 +9,39 @@ namespace Classes_exercise
    class InVoice
    {
 
-
+     
 
       private string partNum; // instance variable for part_number
-      private string partDes; //instance variable for description
+      private string partDes; // instance variable for part_number
       private int Qty; // instance variable for quantity
-      private decimal Unitprc; // instance variable for unit_price
-      private 
+      public decimal UnitPrice; // instance variable for unit_price
+      
 
+      public InVoice(string parts, string Des, int Quant, decimal price)
+      {
+         PartNum = parts;
+         PartDes = Des;
+         Qty = Quant;
+         UnitPrice = price;
+      }
 
 
       public string PartNum { get; set; }  // auto-implemented property
       public string PartDes { get; set; } // auto- implemeted property
 
+      public static decimal GetInAmount(int Quant, decimal price) 
+      {
+         return Quant * price;
+      }
+     
+        
+
+
       public int qTy
       {
          get //return the quantity of item
          {
-            return qTy;
+            return Qty;
 
          }
 
@@ -34,7 +49,7 @@ namespace Classes_exercise
          set
          {
             //validate that the balance is greater the 0.0 if it's not, 
-            // instance variable keeps it's prior value. 
+             //instance variable keeps it's prior value. 
             if (value > 0)
             {
                qTy = value;
@@ -43,24 +58,25 @@ namespace Classes_exercise
          }
       }
 
-         public decimal UnitPrc
+         public decimal Unitprice
       {
          get
          {
-            return UnitPrc;
+            return UnitPrice;
          }
 
          set
          {
-            if (UnitPrc > 0.0m)
+            if (UnitPrice > 0.0m)
             {
-               UnitPrc = value;
+               UnitPrice = value;
             }
 
 
          }
 
 
+         
 
 
 
