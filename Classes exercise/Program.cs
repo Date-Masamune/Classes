@@ -15,13 +15,13 @@ namespace Classes_exercise
          Console.WriteLine($"The item is{ Invoice1.PartDes}");
 
         
-         Console.WriteLine($"The quantity is{ Invoice1.qTy}");
+         Console.WriteLine($"The quantity is {Invoice1.qTy}");
 
 
-         Console.WriteLine($"The price is{ Invoice1.UnitPrice}");
+         Console.WriteLine($"The price is {Invoice1.UnitPrice}");
 
          
-         Console.WriteLine($"The Invoice amout is{ InVoice.GetInAmount( Invoice1.qTy, Invoice1.UnitPrice)}");
+         Console.WriteLine($"The Invoice amout is {InVoice.GetInAmount( Invoice1.qTy, Invoice1.UnitPrice)}");
 
          
       }

@@ -14,3 +14,19 @@ C:\Users\4400112799\source\repos\Classes exercise\Classes exercise\obj\Debug\net
 C:\Users\4400112799\source\repos\Classes exercise\Classes exercise\obj\Debug\net5.0\ref\Classes exercise.dll
 C:\Users\4400112799\source\repos\Classes exercise\Classes exercise\obj\Debug\net5.0\Classes exercise.pdb
 C:\Users\4400112799\source\repos\Classes exercise\Classes exercise\obj\Debug\net5.0\Classes exercise.genruntimeconfig.cache
+C:\Users\User\Source\Repos\Classes\Classes exercise\bin\Debug\net5.0\Classes exercise.exe
+C:\Users\User\Source\Repos\Classes\Classes exercise\bin\Debug\net5.0\Classes exercise.deps.json
+C:\Users\User\Source\Repos\Classes\Classes exercise\bin\Debug\net5.0\Classes exercise.runtimeconfig.json
+C:\Users\User\Source\Repos\Classes\Classes exercise\bin\Debug\net5.0\Classes exercise.runtimeconfig.dev.json
+C:\Users\User\Source\Repos\Classes\Classes exercise\bin\Debug\net5.0\Classes exercise.dll
+C:\Users\User\Source\Repos\Classes\Classes exercise\bin\Debug\net5.0\ref\Classes exercise.dll
+C:\Users\User\Source\Repos\Classes\Classes exercise\bin\Debug\net5.0\Classes exercise.pdb
+C:\Users\User\Source\Repos\Classes\Classes exercise\obj\Debug\net5.0\Classes exercise.csproj.AssemblyReference.cache
+C:\Users\User\Source\Repos\Classes\Classes exercise\obj\Debug\net5.0\Classes exercise.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Source\Repos\Classes\Classes exercise\obj\Debug\net5.0\Classes exercise.AssemblyInfoInputs.cache
+C:\Users\User\Source\Repos\Classes\Classes exercise\obj\Debug\net5.0\Classes exercise.AssemblyInfo.cs
+C:\Users\User\Source\Repos\Classes\Classes exercise\obj\Debug\net5.0\Classes exercise.csproj.CoreCompileInputs.cache
+C:\Users\User\Source\Repos\Classes\Classes exercise\obj\Debug\net5.0\Classes exercise.dll
+C:\Users\User\Source\Repos\Classes\Classes exercise\obj\Debug\net5.0\ref\Classes exercise.dll
+C:\Users\User\Source\Repos\Classes\Classes exercise\obj\Debug\net5.0\Classes exercise.pdb
+C:\Users\User\Source\Repos\Classes\Classes exercise\obj\Debug\net5.0\Classes exercise.genruntimeconfig.cache

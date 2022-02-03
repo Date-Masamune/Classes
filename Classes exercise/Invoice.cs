@@ -26,8 +26,33 @@ namespace Classes_exercise
       }
 
 
-      public string PartNum { get; set; }  // auto-implemented property
-      public string PartDes { get; set; } // auto- implemeted property
+      public string PartNum
+      {
+         get
+         {
+            return partNum;  // return the value of the client code
+         }
+
+         set
+         {
+            partNum = value; //value is implicitly declared and intialized 
+         }
+      }
+      
+
+      public string PartDes
+      {
+         get
+         {
+            return partDes; // retuns the value of the client code
+         }
+
+         set
+         {
+            partDes = value; //vale is implicitly declared and initialized 
+         }
+
+      }
 
       public static decimal GetInAmount(int Quant, decimal price) 
       {
